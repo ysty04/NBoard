@@ -1,9 +1,10 @@
 #menu {
       background-color: #1a1a1a;
-      width: 15%;
-      height: 90%;
+      width: 10%;
+      height: 100%;
+      position: fixed;
 }
-#menu a {
+#menu a, #my-data, #studies, #subjects {
       font-size: 2.5ch;
       font-family: Arial, Helvetica, sans-serif;
       color: beige;
@@ -11,11 +12,15 @@
       padding: 10px 25px;
 
 }
-#menu a:hover {
+#menu a:hover, #my-data:hover, #studies:hover, #subjects:hover {
       background-color: #2e2e2e;
 }
 #top-menu {
       padding-top: 50px;
       padding-bottom: 25px;
-      
+}
+#my-data, #studies, #subjects {
+      border: none;
+      outline: none;
+      background-color: inherit;
 }

@@ -10,14 +10,33 @@
       
       <link rel="stylesheet" href="src/css/style.css">
       <link rel="stylesheet" href="src/css/header.css">
-
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script type="text/javascript" src="src/js/componets.js"></script>
-      <script type="text/javascript" src="src/js/language.js"></script>
 </head>
 <body>
-      <div id="menu"></div>
-      <div id="content"></div>
+      <nav>
+            <ul id="top-menu">
+                  <li><a href="/">NBoard</a></li>
+            </ul>
+            <div id="down-menu">
+                  <a href="/" class="active">Kezdőlap</a>
+                  <a href="/personal">Saját adatok</a>
+                  <button id="studies">Tanulmányaim
+                        <div class="studies-content">
+                              <a href="/training.html">Képzés adatok</a>
+                              <a href="/term.html">Féléves adatok</a>
+                        </div>
+                  </button>
+                  <button id="subjects">Tárgyak
+                        <div class="subjects-content">
+                              <a href="/registered-subjects.html">Felvett tárgyak</a>
+                              <a href="/taken-courses.html">Felvett kurzusok</a>
+                              <a href="/register-for-subject.html">Tárgyfelvétel</a>
+                        </div>
+                  </button>
+            </div>
+      </nav>
+      <div id="content">
+            <h1></h1>
+      </div>
       <div id="footer"></div>
 
 </body>
